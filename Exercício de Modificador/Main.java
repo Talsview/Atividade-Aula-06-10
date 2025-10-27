@@ -4,9 +4,10 @@ public class Main {
 
         livro.exibirInfo();
 
-        System.out.println("\nAutor (usando getter): " + livro.getAutor());
+        System.out.println("\nAutor: " + livro.getAutor());
 
         livro.setAutor("F. Kafka");
         System.out.println("Autor atualizado: " + livro.getAutor());
     }
 }
+
