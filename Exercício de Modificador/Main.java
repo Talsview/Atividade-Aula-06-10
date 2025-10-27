@@ -7,7 +7,8 @@ public class Main {
         System.out.println("\nAutor: " + livro.getAutor());
 
         livro.setAutor("F. Kafka");
-        System.out.println("Autor atualizado: " + livro.getAutor());
+        System.out.println("Autor: " + livro.getAutor());
     }
 }
+
 
